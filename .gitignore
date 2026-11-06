@@ -1,0 +1,30 @@
+# --- Python Backend ---
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.pytest_cache/
+backend/venv/
+backend/.venv/
+backend/env/
+
+# --- Node / Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.npm/
+
+# --- Secrets & Environment Files (CRITICAL) ---
+**/.env
+**/.env.local
+**/.env.*.local
+frontend/.env
+backend/.env
+
+# --- System & Editor Metadata ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
